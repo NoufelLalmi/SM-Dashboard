@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -49,5 +49,5 @@ Users should be able to:
 ## Author
 
 - Website - [Noufle Lalmi](https://lalminoufle-portfolio.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@NoufelLalmi](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@noufellalmi](https://www.twitter.com/yourusername)
