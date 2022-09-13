@@ -61,12 +61,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-  <script src="./dark.js"></script>
+  <title>Frontend Mentor | [Social Media Dashboard]</title>
+
 
 </head>
 
-<body class="">
+<body id="body" class="">
   <div class="text-slate-400 dark:bg-darkbg">
     <!-- ------------- header -----------  -->
     <div class="bg-bg pb-[7rem] dark:bg-darkbg-header">
@@ -76,9 +76,9 @@
           <span class="text-sm">Total Followers: 23,004</span>
         </div>
         <div class="flex">
-          <label class="mx-2 dark:text-darkbg-text font-bold" for="" htmlFor="" checkbox> Dark Mode </label>
+          <label class="mx-2 dark:text-darkbg-text font-bold" for="" htmlFor=""> Dark Mode </label>
           <label class="toggler-wrapper style-1">
-            <input type="checkbox" checked>
+            <input class="theme-toggler" type="checkbox" id="toggle" checked>
             <div class="toggler-slider">
               <div class="toggler-knob"></div>
             </div>
@@ -153,11 +153,11 @@
       </div>
     </div>
     <!-- -------------End main cards -----------  -->
-  
+
     <!-- ------------- mini cards -----------  -->
     <div class="container mt-20 mb-20">
       <!-- title  -->
-      <h1 class="font-bold text-2xl mb-10 dark:text-darkbg-text">  Overview - Today</h1>
+      <h1 class="font-bold text-2xl mb-10 dark:text-darkbg-text"> Overview - Today</h1>
       <!-- ------------- mini card -----------  -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
         <div class="card p-10">
@@ -265,19 +265,20 @@
           </div>
         </div>
       </div>
-      
+
     </div>
-  
+
     <div class="attribution flex justify-center">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.facebook.com/NoufelLalmiOfficial" target="_blank">Noufel Lalmi</a>.
     </div>
   </div>
 </body>
-
+<!-- Dark Mode Toggel function------------- -->
+<script src="./dark.js"></script>
 <!-- Dark Mode Toggel Style------------- -->
 <style>
-  /*Style 1*/
+  /*Style toggle*/
   .toggler-wrapper {
     display: block;
     width: 45px;
@@ -295,7 +296,7 @@
   }
 
   .toggler-wrapper .toggler-slider {
-    background:linear-gradient(90deg,hsl(210, 78%, 56%), hsl(146, 68%, 55%)); 
+    background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     position: absolute;
     border-radius: 100px;
     top: 0;
